@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color:#000000
+  
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+   
+}
+
+header img{
+    width: 150px;
+    height: 100px;
+}
+
+nav ul {
+    text-align: right;
+    list-style-type: none;
+  
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+.suscripcion {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.suscripcion h2 {
+    margin-bottom: 20px;
+}
+
+.suscripcion form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.suscripcion form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.suscripcion form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.suscripcion form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.suscripcion form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer{
+ 
+    background: #333;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
